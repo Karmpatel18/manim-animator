@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3529212410_513577100_223132457.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3040924799_1245185990_999200243.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3040924799_4153911762_2595213921.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3040924799_2649748087_551440038.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3040924799_539060539_3547354203.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpxq7k6zjw/1080p60/partial_movie_files/SimpleScene/3040924799_2872842549_3133001965.mp4'

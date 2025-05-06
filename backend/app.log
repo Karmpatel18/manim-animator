@@ -5259,3 +5259,155 @@ class TransformerDiagram(Scene):
 2025-05-06 17:41:32,466 - __main__ - INFO - Copied video file to: C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media\videos\animation_20250506_174105.mp4
 2025-05-06 17:41:32,467 - __main__ - INFO - Video generated successfully at: C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media\videos\animation_20250506_174105.mp4
 2025-05-06 17:41:32,472 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 17:41:32] "POST /api/generate HTTP/1.1" 200 -
+2025-05-06 17:51:37,564 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.80:5000
+2025-05-06 17:51:37,565 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 17:51:37,587 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-06 17:51:41,098 - werkzeug - WARNING -  * Debugger is active!
+2025-05-06 17:51:41,137 - werkzeug - INFO -  * Debugger PIN: 671-828-137
+2025-05-06 17:52:07,216 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 17:52:07] "OPTIONS /api/generate HTTP/1.1" 200 -
+2025-05-06 17:52:07,480 - __main__ - INFO - Received animation generation request
+2025-05-06 17:52:07,481 - __main__ - INFO - Generating animation for description: generate a box that plots arrow to next box containing text "orange"
+2025-05-06 17:52:07,481 - __main__ - INFO - Using Python executable: C:\Users\karmp\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+2025-05-06 17:52:07,484 - __main__ - INFO - Manim executable not found, using python -m manim
+2025-05-06 17:52:07,485 - __main__ - INFO - Using Manim command: C:\Users\karmp\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m manim
+2025-05-06 17:52:10,679 - __main__ - INFO - Generated code from Gemini: ```python
+from manim import *
+
+class ElegantScene(Scene):
+    def construct(self):
+        # Create the first box
+        box1 = Rectangle(width=2, height=1, color=BLUE)
+        text1 = Text("Box 1", font_size=24).move_to(box1.get_center())
+        group1 = VGroup(box1, text1)
+
+        self.play(FadeIn(group1))
+        self.wait(0.5)
+
+        # Create the arrow
+        arrow = Arrow(start=box1.get_right(), end=RIGHT * 3, buff=0.2)
+        self.play(Create(arrow))
+        self.wait(0.5)
+        
+        # Create the second box with "orange" text
+        box2 = Rectangle(width=2, height=1, color=ORANGE).next_to(arrow.get_end(), RIGHT, buff=0.2)
+        text2 = Text("Orange", color=WHITE, font_size=24).move_to(box2.get_center())
+        group2 = VGroup(box2, text2)
+
+        self.play(FadeIn(group2))
+        self.wait(1)
+        
+        # Move the whole scene to the center
+        everything = VGroup(group1, arrow, group2)
+        self.play(everything.animate.move_to(ORIGIN))
+        self.wait(1)
+
+        self.wait(2)
+```
+2025-05-06 17:52:10,686 - __main__ - INFO - Created temporary file at: C:\Users\karmp\AppData\Local\Temp\tmp3mglsm0b.py
+2025-05-06 17:52:10,687 - __main__ - INFO - Found scene class name: ElegantScene
+2025-05-06 17:52:10,691 - __main__ - INFO - Running Manim command: C:\Users\karmp\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m manim -qh --media_dir C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media -o animation_20250506_175210.mp4 C:\Users\karmp\AppData\Local\Temp\tmp3mglsm0b.py ElegantScene
+2025-05-06 17:52:41,080 - __main__ - INFO - Manim output: Manim Community v0.19.0
+
+[05/06/25 17:52:19] INFO     Animation 0 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3529212410_                         
+                             1729953786_223132457.mp4'                         
+[05/06/25 17:52:20] INFO     Animation 1 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             2574473371_960175093.mp4'                         
+[05/06/25 17:52:23] INFO     Animation 2 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             2201620577_745651506.mp4'                         
+[05/06/25 17:52:24] INFO     Animation 3 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             2574473371_2077203520.mp4                         
+                             '                                                 
+[05/06/25 17:52:27] INFO     Animation 4 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             4080149982_613237395.mp4'                         
+[05/06/25 17:52:29] INFO     Animation 5 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             1432596116_769693476.mp4'                         
+[05/06/25 17:52:33] INFO     Animation 6 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             1518218869_825333220.mp4'                         
+[05/06/25 17:52:35] INFO     Animation 7 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             1432596116_48204658.mp4'                          
+[05/06/25 17:52:39] INFO     Animation 8 : Partial     scene_file_writer.py:588
+                             movie file written in                             
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\partial_movie_files                         
+                             \ElegantScene\3040924799_                         
+                             2872842549_3248521543.mp4                         
+                             '                                                 
+                    INFO     Combining to Movie file.  scene_file_writer.py:739
+[05/06/25 17:52:40] INFO                               scene_file_writer.py:886
+                             File ready at                                     
+                             'C:\Users\karmp\OneDrive\                         
+                             Desktop\react                                     
+                             projects\Manim\backend\me                         
+                             dia\videos\tmp3mglsm0b\10                         
+                             80p60\animation_20250506_                         
+                             175210.mp4'                                       
+                                                                               
+                    INFO     Rendered ElegantScene                 scene.py:255
+                             Played 9 animations                               
+
+2025-05-06 17:52:41,085 - __main__ - INFO - Found video file: C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media\videos\tmp3mglsm0b\1080p60\animation_20250506_175210.mp4
+2025-05-06 17:52:41,089 - __main__ - INFO - Copied video file to: C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media\videos\animation_20250506_175210.mp4
+2025-05-06 17:52:41,091 - __main__ - INFO - Video generated successfully at: C:\Users\karmp\OneDrive\Desktop\react projects\Manim\backend\media\videos\animation_20250506_175210.mp4
+2025-05-06 17:52:41,097 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 17:52:41] "POST /api/generate HTTP/1.1" 200 -

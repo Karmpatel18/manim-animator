@@ -1,8 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3529212410_749857314_223132457.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_1928538951_2885646707.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_3814699721_812948711.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_3114058349_925281680.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_2866471316_1635085022.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_2000548246_629289417.mp4'
-file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmph5roti9z/1080p60/partial_movie_files/TransformerDiagram/3040924799_2872842549_1369870731.mp4'
