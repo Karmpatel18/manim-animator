@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3529212410_569386808_223132457.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_349720790_2899838039.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_2928473822_503392394.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_4153993363_4278693447.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_1042430936_746982982.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_324929030_585589700.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_2696644021_2396448510.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_159655239_809381672.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmplt4pejeu/1080p60/partial_movie_files/LinearRegressionAnimation/3040924799_2872842549_2685042521.mp4'

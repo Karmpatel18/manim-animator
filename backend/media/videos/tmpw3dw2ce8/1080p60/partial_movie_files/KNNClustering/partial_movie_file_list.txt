@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3529212410_2368191625_223132457.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3040924799_1282427074_388533222.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3040924799_674887451_606619191.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3040924799_1643551140_3294107595.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3040924799_2205974689_2909800002.mp4'
+file 'file:C:/Users/karmp/OneDrive/Desktop/react projects/Manim/backend/media/videos/tmpw3dw2ce8/1080p60/partial_movie_files/KNNClustering/3040924799_2872842549_2391590542.mp4'
